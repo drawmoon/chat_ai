@@ -1,0 +1,11 @@
+prologue: 嗨，我是智能小助手，初次见面很开心。嗯，你想问点什么呢？
+model_kwargs:
+  model: qwen3:30b-a3b-nothinking
+  base_url: http://192.168.11.124:8750/v1
+  api_key: abc
+  temperature: 1e-8
+  max_tokens: 1024
+messages:
+  - role: system
+    content: |-
+      You are a helpful assistant.
