@@ -1,0 +1,10 @@
+model_args:
+  model_name: qwen3:30b-a3b-nothinking
+  base_url: http://localhost:8750/v1
+  api_key: abc
+  temperature: 1e-8
+  max_tokens: 1024
+messages:
+  - role: system
+    content: |-
+      You are a helpful assistant.

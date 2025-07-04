@@ -1,0 +1,23 @@
+[project]
+name = "chat_ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aioconsole>=0.8.1",
+    "aiohttp>=3.12.13",
+    "jinja2>=3.1.6",
+    "langchain-openai>=0.3.24",
+    "pydantic>=2.11.7",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.14.1",
+    "ruff>=0.12.0",
+]
+
+[[tool.uv.index]]
+url = "https://mirrors.ustc.edu.cn/pypi/simple"
+default = true

@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Ruff
+.ruff_cache/
+
+# PyInstaller
+#  Usually these files are tracked in source control,
+#  but if you need to ignore them, these are the files:
+*.spec
